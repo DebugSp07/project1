@@ -1,0 +1,58 @@
+.web1 {
+    background-color: antiquewhite;
+    background-size: 300px 100px;
+    min-height: 100vh
+}
+.web2{
+    background-color:#2C3639;
+    background-size:300px 100px; 
+    min-height:100vh
+   
+}
+
+.back {
+    ground-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.gh {
+    animation: dde;
+    align-items: center;
+    justify-content: center;
+}
+.p {
+    position:center;
+    align-items: center;
+    justify-content: center;
+}
+
+ @keyframes sp1 {
+        from {
+            transform: matrix(0dg);
+            font-size:20%;
+        }
+
+    to {
+        transform: rotate3d(360deg);
+        font-size: 500%;
+    }
+    }
+
+.dd{
+    animation:dde;
+    animation-fill-mode:revert;
+    animation-duration:7s;
+}
+@keyframes dde {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
